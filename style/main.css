@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(20,20,20);
+}
+
+header{
+    border: 1px solid rgb(41,41,41);
+    background-color: rgb(34,34,34);
+    height: 50px;
+}
+
+.cont{
+    margin: 0 auto;
+    display: flex;
+    max-width: 1090px;
+}
+
+
+.logo{
+    width: 170px;
+    background-image: url(../assets/headMenuIcons/VooldLogo.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+}
+
+.search_field{
+    width: 250px;
+}
+
+.search_back{
+    margin-top: 8px;
+    display: inline-block;
+    display: flex;
+    width: 230px;
+    height: 34px;
+    border-radius: 6px;
+    background-color: rgb(66,66,66);
+    color: rgb(130,130,130);
+    border: 0px;
+    cursor: pointer;
+}
+
+.magn{
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    margin-top: -3px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.close{
+    margin-top: -3px;
+    cursor: pointer;
+}
+
+.search_field form input{
+    width: 170px;
+    height: 34px;
+    border-radius: 6px;
+    background-color: rgb(66,66,66);
+    color: rgb(130,130,130);
+    border: 0px;
+}
+
+.search_back:hover #search, .search_back:hover{
+    background-color: rgb(74,74,74);
+}
+
+.hv_515151:hover{
+    background-color: rgb(51,51,51);
+}
+
+#search:focus{
+    outline: none;
+}
+
+.notifications_icon{
+    width: 50px;
+    fill: rgb(130,130,130);
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.music_player{
+    width: 500px;
+    cursor: pointer;
+    display: flex;
+
+}
+
+.mus{
+    display: inline-block;
+    position: relative;
+    top: +3px;
+    color: rgb(147,147,147);
+}
+
+.services{
+    width: 50px;
+    cursor: pointer;
+}
+
+.profile{
+    width: 70px;
+    cursor: pointer;
+    display: flex;
+}
+
+
+header{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    user-select: none;
+}
+
+header ul li{
+    display: inline-block;
+    position: relative;
+    line-height: 50px;
+    /* border: 1px solid red; */
+}
+
+.photo_prof{
+    margin-left: 6px;
+    margin-top: 3px;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid #000;
+    background-image: url(../assets/headMenuIcons/profile.jpg);
+    background-size: contain;
+}
