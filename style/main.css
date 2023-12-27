@@ -13,6 +13,49 @@ header{
     height: 50px;
 }
 
+.NYlights{
+    height: 25px;
+    width: 100%;
+    background-image: url(../assets/HappyNewYear/NYon.png);
+    position: absolute;
+    z-index: 5;
+    background-size: contain;
+    pointer-events: none;
+}
+
+.NYbody{
+    z-index: 4;
+    height: 95px;
+    width: 5px;
+    position: absolute;
+    top: 0;
+    right: 60px;
+    background-image: url(../assets/HappyNewYear/NYbody.png);
+    background-size: contain;
+}
+
+.NYhead{
+    z-index: 5;
+    position: absolute;
+    top: 90px;
+    right: 56px;
+    border: 1px solid rgb(130,130,130);
+    height: 20px;
+    width: 10px;
+    background-color: rgb(74,74,74);
+    border-radius: 20px;
+}
+
+/* .NYbody:hover{
+    transition: 1s;
+    height: 150px;
+}
+
+.NYhead:hover{
+    transition: 1s;
+    top:125px;
+} */
+
 .cont{
     margin: 0 auto;
     display: flex;
@@ -111,6 +154,7 @@ header{
     width: 70px;
     cursor: pointer;
     display: flex;
+    position: relative;
 }
 
 
@@ -141,4 +185,24 @@ header ul li{
     border: 1px solid #000;
     background-image: url(../assets/headMenuIcons/profile.jpg);
     background-size: contain;
+}
+
+.prof_menu{
+    position: absolute;
+    right: 0;
+    top:50px;
+    height: 320px;
+    width: 250px;
+    background-color: rgb(41,41,41);
+    border: 1px solid rgb(54,55,56);
+    border-radius: 0 0 15px 15px;
+}
+
+#prof_menu_head{
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: rgb(51,51,51);
+    width: 230px;
+    height: 120px;
+    border-radius: 10px;
 }
